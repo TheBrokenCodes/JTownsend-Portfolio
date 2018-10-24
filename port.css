@@ -7,6 +7,12 @@ h1 {
 	font-size: 50px;
 }
 
+@media screen and (max-width: 1099px){
+	h1 {
+		text-align: center;
+	}
+}
+
 h2 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 30px;
