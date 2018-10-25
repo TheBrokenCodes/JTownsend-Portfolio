@@ -93,9 +93,6 @@ main img {
 }
 
 /* Test Gallery */
-.flex-container {
-	display: flex;
-}
 
 section .media {
    min-width: 0;
@@ -104,6 +101,7 @@ section .media {
 section img {
 	 width: 100%;
 	 max-width: 100%;
+	 justify-content: center;
 }
 
 /* Gallery Image Effect */
