@@ -102,11 +102,15 @@ section .media {
 section img {
 	 width: 100%;
 	 max-width: 100%;
-	 justify-content: center;
 }
 
 .rowone {
 	margin-top: 10px;
+	justify-content: center;
+}
+
+.rowtwo {
+	justify-content: center;
 }
 
 /* Gallery Image Effect */
