@@ -113,12 +113,6 @@ section img {
 	justify-content: center;
 }
 
-/* Gallery Image Effect */
-section img:hover {
-    transform: scale(0.97);
-    transition: 0.5s all ease;
-}
-
 /* Gallery Row Control */
 @media screen and (min-width: 1100px) {
 	.rowone {
@@ -126,5 +120,11 @@ section img:hover {
 		}
 		.rowtwo {
 				display: flex;
+			}
+
+			/* Gallery Image Effect */
+			section img:hover {
+			    transform: scale(0.97);
+			    transition: 0.5s all ease;
 			}
 }
