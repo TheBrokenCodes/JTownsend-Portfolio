@@ -92,16 +92,21 @@ main img {
 	}
 }
 
-/* Test Gallery */
+/* Gallery */
 
 section .media {
    min-width: 0;
    margin: 5px;
 }
+
 section img {
 	 width: 100%;
 	 max-width: 100%;
 	 justify-content: center;
+}
+
+.rowone {
+	margin-top: 5px;
 }
 
 /* Gallery Image Effect */
