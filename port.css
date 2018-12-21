@@ -1,5 +1,10 @@
+body {
+	max-width: 100%;
+}
+
 header {
 	margin: 0 auto;
+	max-width: 100%;
 }
 
 h1 {
@@ -21,7 +26,8 @@ h2 {
 /* Main Content Area  */
 main {
 	margin: 0 auto;
-	max-width: 900px;
+	width: 900px;
+	max-width: 100%;
 }
 
 /* Navigation */
@@ -97,6 +103,7 @@ main img {
 section .media {
    min-width: 0;
    margin: 5px;
+	 max-width: 500px;
 }
 
 section img {
@@ -156,4 +163,9 @@ h3 {
 	font-family: 'Open Sans', sans-serif;
 	text-shadow: #000 0px 0px 2px;
 	box-shadow: black 0px 1px 3px;
+}
+
+.headertext {
+	max-width: 100%;
+	max-height: auto;
 }
