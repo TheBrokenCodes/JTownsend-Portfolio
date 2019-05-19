@@ -10,13 +10,37 @@ header {
 
 h1 {
 	font-family: 'Syncopate', sans-serif;
-	font-size: 50px;
+	font-size: 46px;
+}
+
+@media screen and (min-width: 1100px){
+.navigator {
+	text-align: center;
+}
+
+nav {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+}
+
+nav li {
+	display: inline-block;
+}
 }
 
 @media screen and (max-width: 1099px){
 	h1 {
 		text-align: center;
 		font-size: 42px;
+	}
+}
+
+@media screen and (min-width: 1100px){
+	h1 {
+		text-align: center;
 	}
 }
 
@@ -34,7 +58,7 @@ main {
 
 /* Navigation */
 nav {
-	background: hsl(0, 0%, 57%);
+	background: #919191;
 	margin-top: 4px;
 }
 nav ul {
@@ -65,12 +89,12 @@ li a {
 }
 
 li a:hover {
-    background-color: hsl(0, 0%, 35%);
+    background-color: #484A47;
     color: white;
 }
 
 li a.active {
-    background-color: hsl(176, 87%, 44%);
+    background-color: #48B8D0;
     color: white;
 }
 
@@ -122,6 +146,10 @@ section img {
 	justify-content: center;
 }
 
+.rowthree {
+	justify-content: center;
+}
+
 /* Gallery Row Control */
 @media screen and (min-width: 1100px) {
 	.rowone {
@@ -130,6 +158,9 @@ section img {
 		.rowtwo {
 				display: flex;
 			}
+			.rowthree {
+					display: flex;
+				}
 
 			/* Gallery Image Effect */
 			section img:hover {
@@ -157,7 +188,7 @@ h3 {
 }
 
 .Button {
-	background-color: hsl(176, 87%, 44%);
+	background-color: #48B8D0;
 	color: white;
 	text-decoration: none;
 	padding: 1.1em;
