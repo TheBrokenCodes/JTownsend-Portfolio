@@ -202,3 +202,33 @@ h3 {
 	max-width: 100%;
 	max-height: auto;
 }
+
+.Recs {
+	float: center;
+	margin: 0 auto;
+}
+
+.letters {
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	padding: 0.3em;
+  margin: 0;
+	background-color: #48B8D0;
+	color: white;
+	text-shadow: #000 0px 0px 2px;
+}
+
+.Title {
+	width: 660px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+}
+
+iframe {
+	max-width: 100%;
+	height: auto;
+}
