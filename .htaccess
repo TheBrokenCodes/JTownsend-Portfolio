@@ -1,8 +1,4 @@
 Options +MultiViews
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ index.html [NC,L]
-RewriteRule ^([^\.]+)$ gallery.html [NC,L]
-RewriteRule ^([^\.]+)$ stories.html [NC,L]
-RewriteRule ^([^\.]+)$ letters.html [NC,L]
-RewriteRule ^([^\.]+)$ resume.html [NC,L]
+RewriteRule ^([^.]+)$ $1.html [NC,L]
