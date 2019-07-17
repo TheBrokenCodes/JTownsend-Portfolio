@@ -1,3 +1,5 @@
 Options +MultiViews
-RewriteEngine On
-RewriteRule ^(.*).html$ https://joshua-townsend.com/$1 [R=301,L]
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
